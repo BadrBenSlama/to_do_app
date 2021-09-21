@@ -1,3 +1,45 @@
 body {
-    background-color: bisque;
+  background-color: bisque;
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.main_container {
+  width: 400px;
+}
+
+.todays {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.clear {
+  margin-top: 20px;
+}
+
+.add {
+  justify-content: space-between;
+}
+
+.task {
+  justify-content: space-between;
+}
+
+#todo_list {
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.border_bottom {
+  border-bottom: solid rgba(128, 128, 128, 0.644) 2px;
+  margin: 10px 0 25px 0;
+}
+
+.input {
+  width: 360px;
 }

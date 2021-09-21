@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>To do List App</title>
 </head>
+
 <body>
-    <h1>Hello webpack!</h1>
+    <h1>To do List App</h1>
+
+    <section>
+        <div class="main_container">
+            <!-- Header -->
+            <div class="flex todays">
+                <div>Today's To do</div>
+                <div><button type="submit"><i class="fas fa-sync"></i></button></div>
+            </div>
+            <!-- Add to do form -->
+            <div class="flex add">
+                <div><input type="text" class="input" placeholder="add tasks to your list..."></div>
+                <div><button type="submit"><i class="fas fa-sign-in-alt"></i></button></div>
+            </div>
+            <!-- Todo list, displayed dynamically with JS -->
+            <ul id="todo_list">
+            </ul>
+            <!-- Clear completed -->
+            <div class="clear"><a href="#">Clear all completed yeah</a></div>
+        </div>
+    </section>
 </body>
+
 </html>

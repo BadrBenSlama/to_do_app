@@ -11,6 +11,10 @@ body {
   width: 400px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .todays {
   margin-top: 60px;
   margin-bottom: 20px;
@@ -19,6 +23,7 @@ body {
 
 .clear {
   margin-top: 20px;
+  justify-content: center;
 }
 
 .add {
@@ -36,10 +41,18 @@ body {
 }
 
 .border_bottom {
-  border-bottom: solid rgba(128, 128, 128, 0.644) 2px;
+  border-bottom: solid rgba(128, 128, 128, 0.644) 1px;
   margin: 10px 0 25px 0;
 }
 
 .input {
   width: 360px;
+}
+
+.fa-sign-in-alt:hover,
+.fa-sync:hover,
+.fa-trash-alt:hover {
+  color: rgb(0, 119, 255);
+  cursor: pointer;
+  transition: 0.5s;
 }

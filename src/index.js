@@ -28,7 +28,7 @@ const showtasks = () => {
     <input type="checkbox" class="box" id="list_box">
     <span>${task.description}</span>
   </div>
-   <button type="submit"><i class="fas fa-ellipsis-v"></i></button>
+  <i class="fas fa-trash-alt"></i>
   </li>
   <div class="border_bottom"></div>`;
     listContainer.innerHTML += list;

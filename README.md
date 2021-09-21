@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TOdo List app
+# Todo List app
 
 ![screenshot](./app.png)
 

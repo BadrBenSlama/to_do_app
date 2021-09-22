@@ -8,25 +8,39 @@ body {
 }
 
 .main_container {
-  width: 400px;
+  width: 50%;
+  justify-content: center;
+  flex-flow: column;
+  background-color: white;
+  margin: 50px auto 0 auto;
+  border: 2px grey solid;
+  border-radius: 5px;
 }
 
 h1 {
   text-align: center;
+  text-decoration: line-through;
 }
 
 .todays {
   margin-top: 60px;
   margin-bottom: 20px;
+  padding: 0 20px 0 20px;
   justify-content: space-between;
 }
 
 .clear {
-  margin-top: 20px;
+  padding: 15px 0 15px 0;
+  margin-top: -10px;
   justify-content: center;
+  background-color: rgb(224, 220, 220);
 }
 
 .add {
+  padding: 0 20px 0 20px;
+}
+
+.adding-form {
   justify-content: space-between;
 }
 
@@ -37,16 +51,19 @@ h1 {
 #todo_list {
   list-style-type: none;
   margin: 20px 0 0 0;
-  padding: 0;
+  padding: 0 20px 0 20px;
 }
 
 .border_bottom {
   border-bottom: solid rgba(128, 128, 128, 0.644) 1px;
-  margin: 10px 0 25px 0;
+  margin: 10px 0 10px 0;
 }
 
 .input {
-  width: 360px;
+  width: 100%;
+  height: 25px;
+  border-style: none;
+  outline: none;
 }
 
 .fa-sign-in-alt {

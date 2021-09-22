@@ -49,6 +49,10 @@ h1 {
   width: 360px;
 }
 
+.fa-sign-in-alt {
+  margin-left: 15px;
+}
+
 .fa-sign-in-alt:hover,
 .fa-sync:hover,
 .fa-trash-alt:hover {

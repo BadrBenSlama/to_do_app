@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
   },
+  mode: 'production',
   devServer: {
 
     static: './dist',

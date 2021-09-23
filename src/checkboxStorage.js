@@ -1,19 +1,12 @@
-const checkboxStorage = () => {
-  document.querySelectorAll('.checkbox').forEach((item) => {
-    item.addEventListener('change', () => {
-      if (item.checked) {
-        console.log('Checkbox is checked..');
-        localStorage.setItem('checkboxStatus', JSON.stringify(true));
-      } else {
-        console.log('Checkbox is not checked..');
-        localStorage.setItem('checkboxStatus', JSON.stringify(false));
-      }
-    });
-  });
-  if (JSON.parse(localStorage.getItem('checkboxStatus')) === true) {
-    document.getElementById('checkbox').setAttribute('checked', 'true');
-  } else if (JSON.parse(localStorage.getItem('checkboxStatus')) === false) {
-    document.getElementById('checkbox').setAttribute('unchecked', 'true');
+export default function savedStatus(number) {
+  const previousData = JSON.parse(localStorage.getItem('storedTodos'));
+  const defaultVal = previousData[number].completed;
+  let nextVal;
+  if (defaultVal === false) {
+    nextVal = true;
+  } else {
+    nextVal = false;
   }
-};
-export default checkboxStorage;
+  previousData[number].completed = nextVal;
+  localStorage.setItem('storedTodos', JSON.stringify(previousData));
+}

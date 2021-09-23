@@ -19,6 +19,9 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.strike {
   text-decoration: line-through;
 }
 

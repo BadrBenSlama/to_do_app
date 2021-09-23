@@ -13,10 +13,6 @@ Additional description about the project and its features.
 - Webpack
 - JavaScript
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 

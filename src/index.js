@@ -28,24 +28,6 @@ if (!previousData) {
   toDoList = previousData;
 }
 
-/* const listContainer = document.getElementById('todo_list');
-
-const showtasks = () => {
-  for (let i = 0; i < toDoList.length; i += 1) {
-    const task = toDoList[i];
-    const list = `<li class="task flex" id="${task.index}">
-  <div>
-
-    <input type="checkbox" class="checkbox" id="checkbox">
-    <span>${task.description}</span>
-  </div>
-  <i class="fas fa-trash-alt"></i>
-  </li>
-  <div class="border_bottom"></div>`;
-    listContainer.innerHTML += list;
-  }
-}; */
-
 for (let i = 0; i < toDoList.length; i += 1) {
   const task = toDoList[i];
   const li = document.createElement('li');

@@ -19,14 +19,14 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple steps.
 
-- Clone using SSH git@github.com:Goldinium/to_do_app.git
-- Clone using https https://github.com/Goldinium/to_do_app.git
+- Clone using SSH git@github.com:badrbenslama/to_do_app.git
+- Clone using https https://github.com/badrbenslama/to_do_app.git
 
 ## Authors
 
-👤 **Goldinium**
+👤 **badrbenslama**
 
-- GitHub: [@goldinium](https://github.com/goldinium)
+- GitHub: [@badrbenslama](https://github.com/badrbenslama)
 
 
 ## 🤝 Contributing
